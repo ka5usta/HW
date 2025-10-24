@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика верстки</title>
+</head>
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div>
+            <p>Имя</p>
+            <input placeholder="Имя" type="text" name="username" value="">
+        </div>
+        <div>
+            <p>Пароль</p>
+            <input placeholder="Пароль" type="password" name="userpass" value="">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input placeholder="Номер телефона" type="number" name="phone number" value="">
+        </div>
+        <div>
+            <p>Пол</p>
+            <p><input type="radio" name="sex" value="male"> Мужской </p>
+            <p></p><input type="radio" name="sex" value="female"> Женский </p>
+        </div>
+        <div>
+            <p>Хобби</p> 
+            <p><input type="checkbox" name="riding on a bike" value="yes">Езить на велосипеде</p>
+            <p><input type="checkbox" name="playing pc games" value="yes">Играть в компьютерные игры</p>
+            <p><input type="checkbox" name="cooking" value="yes">Готовить</p>
+            <p><textarea name="own variant"></textarea>Свой вариант</p>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <p><input type="checkbox" name="bike" value="yes">Велик</p>
+            <p><input type="checkbox" name="car" value="yes">Машина</p>
+            <p><input type="checkbox" name="flat" value="yes">Квартира</p>
+        </div>
+        <div>
+            <p>Дополнительная информация</p>
+            <textarea name="info"></textarea>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <input type="file" name="photo">
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <select name="">
+                <option value="red">Красный</option>
+                <option value="green">Зеленый</option>
+                <option value="white">Белый</option>
+            </select>
+        </div>
+        <div>
+            <p>Почему выбрали IT</p>
+            <select multiple name="">
+                <option value="salary">Зарплата</option>
+                <option value="propensity">Склонность</option>
+                <option value="interest">Интерес</option>
+            </select>
+        </div>
+        <div>
+            <p>Действия</p>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </div>
+    </form>
+</body>
+</html>
